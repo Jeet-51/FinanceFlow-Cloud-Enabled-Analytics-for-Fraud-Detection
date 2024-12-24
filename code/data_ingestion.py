@@ -4,8 +4,8 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder \
     .appName("DataIngestionFromS3") \
     .config("spark.jars", "hadoop-aws-3.3.4.jar, aws-java-sdk-bundle-1.12.524.jar") \
-    .config("spark.hadoop.fs.s3a.access.key", "AKIAYKFQRAWCMOFVFOMT") \
-    .config("spark.hadoop.fs.s3a.secret.key", "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") \
+    .config("spark.hadoop.fs.s3a.access.key", "ACCESS_ID") \
+    .config("spark.hadoop.fs.s3a.secret.key", "SECRET_KEY") \
     .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com") \
     .getOrCreate()
 
