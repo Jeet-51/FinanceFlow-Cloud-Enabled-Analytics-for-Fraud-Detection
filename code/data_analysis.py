@@ -5,8 +5,8 @@ from pyspark.sql.functions import col
 spark = SparkSession.builder \
     .appName("DataAnalysisUsingSparkSQL") \
     .config("spark.jars", "/home/ec2-user/spark_jars/hadoop-aws-3.3.4.jar,/home/ec2-user/spark_jars/aws-java-sdk-bundle-1.12.524.jar") \
-    .config("spark.hadoop.fs.s3a.access.key", "AKIAYKFQRAWCMOFVFOMT") \
-    .config("spark.hadoop.fs.s3a.secret.key", "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") \
+    .config("spark.hadoop.fs.s3a.access.key", "ACCESS_ID") \
+    .config("spark.hadoop.fs.s3a.secret.key", "SECRET_KEY") \
     .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com") \
     .getOrCreate()
 
