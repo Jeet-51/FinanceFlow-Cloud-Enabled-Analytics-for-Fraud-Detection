@@ -20,3 +20,19 @@ This project demonstrates an end-to-end solution for processing, analyzing, and 
 
 ## Dataset
 Link to dataset - https://www.kaggle.com/datasets/ealaxi/paysim1
+
+## Results
+- Fraud Detection F1 Score: 72.7%.
+### Visual Insights:
+- Monthly revenue trends show seasonal peaks in spending.
+- Majority of revenue comes from high-value customers in specific regions.
+
+## Challenges and Learnings
+- Class Imbalance: Addressed through oversampling and class weighting techniques.
+- Data Privacy: Ensured encryption and anonymization of PII.
+- Real-Time Processing: Implemented AWS Kinesis for streaming use cases.
+
+## Future Enhancements
+- Add support for real-time fraud detection pipelines with AWS Kinesis.
+- Explore advanced hyperparameter tuning methods for the SageMaker model.
+- Incorporate more explainable AI tools like SHAP for better interpretability.
