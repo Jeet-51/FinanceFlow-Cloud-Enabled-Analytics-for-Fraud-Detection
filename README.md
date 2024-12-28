@@ -1,4 +1,4 @@
-# AWS-based-Financial-Data-Analysis
+# AWS-based-Financial-Data-Analysis-Pipeline
 
 This project demonstrates an end-to-end solution for processing, analyzing, and predicting financial transaction patterns using AWS services and big data tools. The pipeline includes data ingestion, validation, transformation, machine learning, and visualization.
 
