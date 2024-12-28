@@ -21,6 +21,9 @@ This project demonstrates an end-to-end solution for processing, analyzing, and 
 ## Dataset
 Link to dataset - https://www.kaggle.com/datasets/ealaxi/paysim1
 
+Data in S3 bucket
+![image](https://github.com/user-attachments/assets/d395ec83-2dbe-4348-a4cf-53daf3fad28a)
+
 ## Results
 - Fraud Detection F1 Score: 72.7%.
 ### Visual Insights:
