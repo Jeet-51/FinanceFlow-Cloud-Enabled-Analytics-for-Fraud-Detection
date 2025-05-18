@@ -1,4 +1,9 @@
 # AWS-based-Financial-Data-Analysis-Pipeline
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![AWS](https://img.shields.io/badge/AWS-Cloud-yellow)
+![Spark](https://img.shields.io/badge/Spark-PySpark-orange)
+![SageMaker](https://img.shields.io/badge/SageMaker-Autopilot-green)
+![QuickSight](https://img.shields.io/badge/Visualization-QuickSight-blueviolet)
 
 This project demonstrates an end-to-end solution for processing, analyzing, and predicting financial transaction patterns using AWS services and big data tools. The pipeline includes data ingestion, validation, transformation, machine learning, and visualization.
 
